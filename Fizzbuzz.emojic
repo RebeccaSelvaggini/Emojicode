@@ -1,0 +1,38 @@
+💭🔜 Program that take as input (from command line) a positive integer "max" and print the exact result of the FizzBuzz game until the number "max" (excluded) 🔚💭
+
+🏁🍇 
+💭Take the list of the items inserted in the command line
+🎞🐇💻❗ ➡️ args 
+💭 Here we check that a value has actually been inserted looking at the length of the list "args"
+ ↪ 📏args❓️🙌1🍇  
+     😀 🔤Please enter a positive integer🔤❗️
+🍉  
+🙅 🍇 💭if there is an input..
+   🔢️🐽args 1❗10❗➡️ max 💭take the input and convert from string to integer
+     ↪ max ➡️ Max🍇 💭check that the variable max is non empty
+💭 If the user enter a non positive integer we ask for another input value
+         ↪ Max◀️🙌1 🍇
+         😀 🔤The integer inserted is not positive. Please enter a positive integer🔤❗
+      🍉
+💭 Else if the integer is positive we can start the game!
+      🙅🍇  
+     	   🔂 i 🆕️⏩ 1 Max 1❗ 🍇  💭we start a loop in the range [1,max) 
+     	 	↪ 🤜i 🚮 3🤛 🙌 0 🍇   💭if the value i is divisible by 3
+     	 	     ↪ 🤜i 🚮 5🤛 🙌 0 🍇 💭if is also divisible by 5 we print FizzBuzz
+     	 	           😀 🔤 FizzBuzz 🔤❗
+     	 	   🍉
+     	 	   🙅🍇
+     	 	        😀 🔤 Fizz 🔤❗ 💭else if is only divisible by 3 we print Fizz
+     	 	   🍉  
+     	 	🍉
+     	 	🙅↪ 🤜i 🚮 5🤛 🙌 0 🍇 💭else if i is only divisible by 5 we print Buzz
+  	 		😀 🔤 Buzz 🔤❗
+  	 	🍉
+  	 	🙅 🍇  💭otherwise we just print the number
+  	 	        😀 🔡i❗❗
+		🍉
+  	  🍉
+      🍉 
+  🍉
+🍉
+🍉
